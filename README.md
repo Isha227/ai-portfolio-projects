@@ -1,6 +1,6 @@
 # AI Portfolio Projects
 
-This repository contains two machine learning and optimisation projects developed as part of my MSc in Artificial Intelligence.  
+This repository contains two machine learning and optimisation projects developed during my MSc in Artificial Intelligence.  
 The projects demonstrate practical skills in supervised learning, optimisation algorithms, model evaluation, and experimental analysis.
 
 ---
@@ -9,9 +9,9 @@ The projects demonstrate practical skills in supervised learning, optimisation a
 
 A supervised machine learning project that predicts obesity levels using demographic and lifestyle features.
 
-### Key Steps
+### Workflow
 - Exploratory data analysis (EDA)
-- Data preprocessing pipeline
+- Data preprocessing pipeline:
   - Missing value handling
   - Feature scaling
   - Categorical encoding
@@ -19,7 +19,7 @@ A supervised machine learning project that predicts obesity levels using demogra
   - Logistic Regression
   - Random Forest
   - Gradient Boosting
-- Performance evaluation using:
+- Performance evaluation:
   - Accuracy
   - Precision, Recall, F1-score
   - Confusion matrix
@@ -28,14 +28,14 @@ A supervised machine learning project that predicts obesity levels using demogra
 ### Results
 - **Best model:** Gradient Boosting
 - **Accuracy:** ~0.96
-- The model successfully captured both physical and behavioural factors influencing obesity levels.
+- The model captures both physical and behavioural factors influencing obesity levels.
 
 ### Skills Demonstrated
 - Supervised machine learning
 - Model evaluation and comparison
 - Feature engineering
 - Data visualisation
-- Interpretation of model results
+- Model interpretation
 
 **Project folder:** `obesity-ml/`
 
@@ -51,22 +51,22 @@ Given a set of cities with (X, Y) coordinates, find the shortest route that:
 - Returns to the starting city
 
 ### Algorithms Implemented
-1. Simulated Annealing
-2. Genetic Algorithm
+- Simulated Annealing
+- Genetic Algorithm
 
 ### Experiments
 - Baseline random route
 - SA optimisation
 - GA optimisation
 - Convergence analysis
-- Scalability experiments on dataset subsets (10–50 cities)
+- Scalability tests on subsets (10–50 cities)
 
 ### Results (50 cities)
 - **Random baseline:** ~2766
 - **Simulated Annealing:** ~832.6
 - **Genetic Algorithm:** ~831.8
 
-The Genetic Algorithm achieved a slightly shorter final route, particularly for larger problem instances.
+The Genetic Algorithm achieved a slightly shorter final route, especially on larger problem sizes.
 
 ### Skills Demonstrated
 - Combinatorial optimisation
